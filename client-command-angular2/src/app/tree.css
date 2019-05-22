@@ -1,0 +1,47 @@
+
+.node{
+	font-family: Roboto, Arial, sans-serif;
+	color: #fff;
+	width: 33%;
+	height: 20px; 
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 5px; 
+	background-color: #ccc;
+}
+
+.node button{
+  background-color: transparent; 
+  border: none; 
+  color: white; 
+  font-size: 20px;
+  cursor: pointer; 
+  float: right;
+}
+.nodeForm{
+	margin-left: 30px;
+}
+.nodeForm form{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.nodeForm form div{
+	margin-right: 20px;
+}
+.indentAddChildNode{
+    transition: all 700ms;
+	margin-left: 80px;
+}
+
+.root{
+	background-color: #ccc;
+}
+.red{
+	background-color: red;
+}
+.green{
+	background-color: green;
+}

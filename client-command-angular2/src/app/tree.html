@@ -1,0 +1,14 @@
+<div class="tree" [innerHTML]="getTree() | sainitizeHtml">
+</div>
+<div class="node nodeForm" [ngClass]="{'indentAddChildNode': indentAddChildNode==true}" *ngIf="addNode">
+  <form>
+      <div>Add Node:</div>
+      <div><input type="radio" name="color" value="red"  [(ngModel)]="nodeColor"> Red</div>
+      <div><input type="radio" name="color" value="green" [(ngModel)]="nodeColor"> Green</div>
+      <div><button><i class="fas fa-save" (click)="saveNewItem($event,'save')"></i></button></div>
+  </form>
+</div>
+<div class="node nodeForm">
+  Total: {{total}}
+</div>
+
